@@ -110,7 +110,7 @@ ENV PATH="$HOME/.pg_ctl/bin:$PATH"
 ENV DATABASE_URL="postgresql://gitpod@localhost"
 ENV PGHOSTADDR="127.0.0.1"
 ENV PGDATABASE="postgres"
-COPY --chown=gitpod:gitpod postgresql-hook.bash $HOME/.bashrc.d/200-postgresql-launch
+# COPY --chown=gitpod:gitpod postgresql-hook.bash $HOME/.bashrc.d/200-postgresql-launch
 
 # Local environment variables
 # C9USER is temporary to allow the MySQL Gist to run
